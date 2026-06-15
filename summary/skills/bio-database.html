@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>生物数据库</title>
+  <link rel="stylesheet" href="../assets/skills.css">
+</head>
+<body>
+  <main class="page">
+    <a class="back-link" href="../index.html">← 返回 Skills 总览</a>
+
+    <section class="skill-card">
+      <div class="skill-header">
+        <div class="skill-title">
+          <h2>生物数据库</h2>
+          <p class="skill-teaching">用户提供一组 UniProt ID，技能会查询蛋白基础注释、功能、通路和疾病相关信息。</p>
+          <div class="meta">
+            <span>生物信息</span>
+            <span>1 个输出文件</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="button primary" type="button" data-download-key="bio-database-report">下载示例 UniProt 查询报告</button>
+        </div>
+      </div>
+
+      <div class="skill-body">
+        <article class="panel">
+          <h3>用户故事</h3>
+          <p>作为一名<strong>医学事务人员 / 转化研究支持人员</strong>，我希望在<strong>靶点整理与生物数据库查询场景</strong>中输入<strong>UniProt ID、蛋白或基因标识符</strong>，让 AI 帮我生成<strong>蛋白基础注释、功能摘要、Gene Ontology、通路信息以及疾病相关线索</strong>，以便我能<strong>更快整理分子靶点资料 / 支持研究讨论 / 做医学信息汇总</strong>。</p>
+        </article>
+
+        <article class="panel">
+          <h3>测试案例</h3>
+          <ul>
+            <li><strong>输入类型：</strong>UniProt ID 批量查询</li>
+            <li><strong>查询 ID：</strong>P00533、P04626、P15056、Q9UM73、P04637</li>
+            <li><strong>涉及蛋白：</strong>EGFR、ERBB2、BRAF、ALK、TP53</li>
+          </ul>
+        </article>
+
+        <article class="panel wide">
+          <h3>输出文件</h3>
+          <ul>
+            <li><code>skills_output/生物数据库服务/uniprot_report.md</code></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="../assets/bio-database-downloads.js"></script>
+  <script src="../assets/download-helper.js"></script>
+  <script>
+    window.attachSkillDownloads(window.bioDatabaseDownloads || {});
+  </script>
+</body>
+</html>

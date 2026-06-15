@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>引用管理</title>
+  <link rel="stylesheet" href="../assets/skills.css">
+</head>
+<body>
+  <main class="page">
+    <a class="back-link" href="../index.html">← 返回 Skills 总览</a>
+
+    <section class="skill-card">
+      <div class="skill-header">
+        <div class="skill-title">
+          <h2>引用管理</h2>
+          <p class="skill-teaching">用户上传参考文献列表，技能会补全缺失 DOI、统一格式并标出疑似重复或信息不完整的引用。</p>
+          <div class="meta">
+            <span>文献整理</span>
+            <span>1 个最终交付物</span>
+            <span>7 个过程文件</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="button primary" type="button" data-download-key="citation-final-bib">下载最终交付物</button>
+          <a class="button secondary" href="../downloads/citation-management-intermediate-files.zip" download>下载中间产物包</a>
+        </div>
+      </div>
+
+      <div class="skill-body">
+        <article class="panel">
+          <h3>用户故事</h3>
+          <p>作为一名<strong>医学写作人员 / 学术研究支持人员</strong>，我希望在<strong>参考文献清洗与投稿前整理场景</strong>中输入<strong>杂乱的参考文献列表、已有 DOI、arXiv ID 或不完整书目信息</strong>，让 AI 帮我生成<strong>统一格式的参考文献条目、补全缺失 DOI、提取 arXiv 信息并标出疑似重复或信息不完整的引用</strong>，以便我能<strong>更快整理参考文献库 / 支持论文写作提交 / 做学术信息汇总</strong>。</p>
+        </article>
+
+        <article class="panel">
+          <h3>测试案例</h3>
+          <p><strong>参考文献列表：</strong></p>
+          <ul>
+            <li>Vaswani et al. Attention is all you need. NeurIPS 2017.</li>
+            <li>Attention Is All You Need, Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, 2017, arXiv:1706.03762</li>
+            <li>Devlin J, Chang MW, Lee K, Toutanova K. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805</li>
+            <li>Brown, T. B. et al. Language Models are Few-Shot Learners. NeurIPS 2020.</li>
+            <li>Radford A, Narasimhan K, Salimans T, Sutskever I. Improving Language Understanding by Generative Pre-Training. 2018.</li>
+            <li>Dosovitskiy et al. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. ICLR 2021. arXiv:2010.11929</li>
+            <li>He K, Zhang X, Ren S, Sun J. Deep Residual Learning for Image Recognition. CVPR 2016. DOI: 10.1109/CVPR.2016.90</li>
+            <li>Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, 2016, CVPR</li>
+            <li>Kingma DP, Ba J. Adam: A Method for Stochastic Optimization. arXiv:1412.6980</li>
+            <li>Kaplan J, McCandlish S, Henighan T, Brown TB, Chess B, Child R, Gray S, Radford A, Wu J, Amodei D. Scaling Laws for Neural Language Models. arXiv:2001.08361</li>
+            <li>Ouyang L. et al. Training language models to follow instructions with human feedback. NeurIPS 2022. DOI: 10.48550/arXiv.2203.02155</li>
+            <li>Ronneberger O, Fischer P, Brox T. U-Net: Convolutional Networks for Biomedical Image Segmentation. MICCAI 2015.</li>
+            <li>Esteva A et al. Dermatologist-level classification of skin cancer with deep neural networks. Nature. 2017. PMID: 28117445</li>
+            <li>Silver D et al. Mastering the game of Go with deep neural networks and tree search. Nature 2016. DOI: 10.1038/nature16961</li>
+            <li>Jumper J et al. Highly accurate protein structure prediction with AlphaFold. Nature 2021. DOI: 10.1038/s41586-021-03819-2</li>
+          </ul>
+        </article>
+
+        <article class="panel wide">
+          <h3>输出文件</h3>
+          <p><strong>一、最终交付物（1 个）</strong></p>
+          <ul>
+            <li><code>skills_output/引用管理/references.bib</code>：格式清洗、去重并排序后的正式 BibTeX 文件，包含全部 13 条引用，可直接用于 LaTeX 文档</li>
+          </ul>
+
+          <p><strong>二、中间工作文件（5 个）</strong></p>
+          <ul>
+            <li><code>skills_output/引用管理/dois.txt</code>：从参考文献中识别出的 4 个 DOI</li>
+            <li><code>skills_output/引用管理/arxiv_ids.txt</code>：从参考文献中识别出的 5 个 arXiv ID</li>
+            <li><code>skills_output/引用管理/doi_entries.bib</code>：通过 CrossRef API 从 DOI 提取的原始 BibTeX</li>
+            <li><code>skills_output/引用管理/arxiv_entries.bib</code>：通过 arXiv API 从 arXiv ID 提取的原始 BibTeX</li>
+            <li><code>skills_output/引用管理/references_raw.bib</code>：将 DOI 条目、arXiv 条目及手动编写条目拼接后的原始合并文件</li>
+          </ul>
+
+          <p><strong>三、补充处理文件（2 个）</strong></p>
+          <ul>
+            <li><code>skills_output/引用管理/remaining_arxiv.txt</code>：第一次提取后补录的 arXiv ID</li>
+            <li><code>skills_output/引用管理/remaining_arxiv_entries.bib</code>：对补录 arXiv ID 提取的 BibTeX 条目</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="../assets/citation-management-downloads.js"></script>
+  <script src="../assets/download-helper.js"></script>
+  <script>
+    window.attachSkillDownloads(window.citationManagementDownloads || {});
+  </script>
+</body>
+</html>

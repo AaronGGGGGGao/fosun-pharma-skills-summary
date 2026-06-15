@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>临床报告</title>
+  <link rel="stylesheet" href="../assets/skills.css">
+</head>
+<body>
+  <main class="page">
+    <a class="back-link" href="../index.html">← 返回 Skills 总览</a>
+
+    <section class="skill-card">
+      <div class="skill-header">
+        <div class="skill-title">
+          <h2>临床报告</h2>
+          <p class="skill-teaching">用户提供病例时间线，技能会起草 CARE 病例报告并列出缺失信息。</p>
+          <div class="meta">
+            <span>病例写作</span>
+            <span>2 个输出文件</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="button primary" type="button" data-download-key="clinical-report-case">下载示例病例报告</button>
+          <button class="button secondary" type="button" data-download-key="clinical-report-timeline">下载示例时间线图文件</button>
+        </div>
+      </div>
+
+      <div class="skill-body">
+        <article class="panel">
+          <h3>用户故事</h3>
+          <p>作为一名<strong>医学写作人员 / 临床研究支持人员</strong>，我希望在<strong>病例整理与病例报告写作场景</strong>中输入<strong>患者基本信息、主诉、既往史、家族史、个人史以及按日期整理的病例时间线</strong>，让 AI 帮我生成<strong>CARE 病例报告草稿、结构化病例时间线、关键信息总结以及缺失信息清单</strong>，以便我能<strong>更快整理病例材料 / 支持医生写作讨论 / 做医学信息汇总</strong>。</p>
+        </article>
+
+        <article class="panel">
+          <h3>测试案例</h3>
+          <ul>
+            <li><strong>患者：</strong>46 岁女性</li>
+            <li><strong>主诉：</strong>反复发热、乏力 10 天，加重伴胸闷 2 天</li>
+            <li><strong>既往史：</strong>无明确慢性病史；无长期用药史；无已知药物过敏史</li>
+            <li><strong>家族史：</strong>无明确遗传病或重大疾病家族史</li>
+            <li><strong>个人史：</strong>不吸烟，偶尔饮酒</li>
+            <li><strong>时间线：</strong>2025 年 3 月 2 日起病，3 月 9 日急诊评估提示急性心肌炎可能，3 月 10 日心脏 MRI 支持急性心肌炎诊断，3 月 20 日出院，4 月 20 日门诊随访改善</li>
+          </ul>
+        </article>
+
+        <article class="panel wide">
+          <h3>输出文件</h3>
+          <ul>
+            <li><code>skills_output/临床报告/case_report.md</code></li>
+            <li><code>skills_output/临床报告/figures_clinical_timeline.md</code></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="../assets/clinical-reports-downloads.js"></script>
+  <script src="../assets/download-helper.js"></script>
+  <script>
+    window.attachSkillDownloads(window.clinicalReportsDownloads || {});
+  </script>
+</body>
+</html>
