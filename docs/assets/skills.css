@@ -170,6 +170,22 @@ h1 {
   color: var(--text);
 }
 
+.button:disabled,
+.button.is-disabled {
+  cursor: not-allowed;
+  opacity: 0.52;
+  transform: none;
+  border-color: var(--border);
+  background: #202020;
+  color: var(--muted);
+}
+
+.button:disabled:hover,
+.button.is-disabled:hover {
+  transform: none;
+  border-color: var(--border);
+}
+
 .skill-body {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -203,6 +219,12 @@ h1 {
 
 .panel strong {
   color: var(--text);
+}
+
+.placeholder-note {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .wide {

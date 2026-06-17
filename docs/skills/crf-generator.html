@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRF 生成</title>
+  <link rel="stylesheet" href="../assets/skills.css">
+</head>
+<body>
+  <main class="page">
+    <a class="back-link" href="../index.html">← 返回 Skills 总览</a>
+
+    <section class="skill-card">
+      <div class="skill-header">
+        <div class="skill-title">
+          <h2>CRF 生成</h2>
+          <p class="skill-teaching">当用户要求基于药物、适应症、临床试验方案或上传文件生成病例报告表、CRF 模块、受试者信息/用药记录/实验室检查/不良事件/疗效评估表单，或续接/停止/删除该 MDI CRF 会话时触发。</p>
+          <div class="meta">
+            <span>临床试验运营</span>
+            <span>1 个输出文件</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="button primary" href="../downloads/crf-generator/Pembrolizumab_NSCLC_CRF_Template.md" download>下载示例 CRF 模板</a>
+        </div>
+      </div>
+
+      <div class="skill-body">
+        <article class="panel">
+          <h3>用户故事</h3>
+          <p>作为一名<strong>临床运营人员 / 医学项目支持人员</strong>，我希望在<strong>临床试验表单设计与病例采集场景</strong>中输入<strong>药物、适应症、临床试验方案或上传文件等信息</strong>，让 AI 帮我生成<strong>病例报告表、CRF 模块、受试者信息/用药记录/实验室检查/不良事件/疗效评估表单以及结构化字段建议</strong>，以便我能<strong>更快整理试验采集框架 / 支持研究团队讨论 / 做 CRF 设计准备</strong>。</p>
+        </article>
+
+        <article class="panel">
+          <h3>测试案例</h3>
+          <ul>
+            <li><strong>药物：</strong>Pembrolizumab</li>
+            <li><strong>适应症：</strong>转移性非鳞状非小细胞肺癌 NSCLC 一线治疗</li>
+            <li><strong>临床试验方案：</strong>本研究是一项随机、双盲、安慰剂对照、多中心 III 期临床试验，旨在评价 Pembrolizumab 联合培美曲塞和铂类化疗用于转移性非鳞状非小细胞肺癌一线治疗的疗效和安全性。研究人群为既往未接受过转移性疾病系统性抗肿瘤治疗的成人转移性非鳞状 NSCLC 患者。受试者将随机分配至两个治疗组：试验组：Pembrolizumab + 培美曲塞 + 铂类化疗；对照组：安慰剂 + 培美曲塞 + 铂类化疗。每 3 周为一个治疗周期。治疗期间需记录试验药物和化疗给药情况、剂量调整、中断或停药情况、合并用药、生命体征、ECOG 评分、实验室检查和不良事件。影像学疗效评估每 6 周进行一次，并按照 RECIST 1.1 标准评估疗效。</li>
+          </ul>
+        </article>
+
+        <article class="panel wide">
+          <h3>输出文件</h3>
+          <ul>
+            <li><code>skills_output/CRF生成/Pembrolizumab_NSCLC_CRF_Template.md</code>：Pembrolizumab 联合化疗治疗转移性非鳞状 NSCLC III 期临床试验的 CRF 病例报告表模板，覆盖受试者筛选、病史及基线评估、随机化及用药记录、实验室检查等模块。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

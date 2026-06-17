@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature 论文精读</title>
+  <link rel="stylesheet" href="../assets/skills.css">
+</head>
+<body>
+  <main class="page">
+    <a class="back-link" href="../index.html">← 返回 Skills 总览</a>
+
+    <section class="skill-card">
+      <div class="skill-header">
+        <div class="skill-title">
+          <h2>Nature 论文精读</h2>
+          <p class="skill-teaching">可选中文本 PDF、扫描 PDF、DOI、arXiv 链接、期刊网页、粘贴正文、是否需要图表裁剪、术语偏好和输出目录要求。</p>
+          <div class="meta">
+            <span>论文精读</span>
+            <span>3 个已接入文件</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="button primary" href="../downloads/nature-paper-reading/paper.md" download>下载 paper.md</a>
+          <a class="button secondary" href="../downloads/nature-paper-reading/source_map.json" download>下载 source_map.json</a>
+          <a class="button secondary" href="../downloads/nature-paper-reading/translation_notes.md" download>下载 translation_notes.md</a>
+        </div>
+      </div>
+
+      <div class="skill-body">
+        <article class="panel">
+          <h3>用户故事</h3>
+          <p>作为一名<strong>医学写作人员 / 科研支持人员</strong>，我希望在<strong>高影响力论文精读与双语转写场景</strong>中输入<strong>文本 PDF、扫描 PDF、DOI、arXiv 链接、期刊网页、粘贴正文以及图表裁剪、术语偏好和输出目录要求等信息</strong>，让 AI 帮我生成<strong>含 Original/中文 对照块的全文精读材料、图表与 caption 的中文说明、来源映射、低置信度翻译记录和后续问答可引用锚点</strong>，以便我能<strong>更快整理论文精读材料 / 支持团队讨论 / 做后续问答和研究资料汇总</strong>。</p>
+        </article>
+
+        <article class="panel">
+          <h3>测试案例</h3>
+          <ul>
+            <li><strong>论文信息：</strong>DOI：10.1038/s41591-024-03180-7</li>
+            <li><strong>论文标题：</strong>Influence of believed AI involvement on the perception of digital medical advice</li>
+            <li><strong>任务要求：</strong>请基于 DOI 获取论文正文、摘要、图表、caption 和参考信息。生成全文级中英文对照 Markdown，不要只做摘要。每个段落请按照以下格式输出：Original：英文原文段落；中文：对应中文翻译；Note：必要时解释术语、实验设计或统计结果。请保留论文结构，包括 Abstract、Introduction、Methods、Results、Discussion、Conclusion 等原有章节。请将图表放到对应正文段落附近，而不是全部放在文末。每个图表请包含：原始 Figure/Table 编号、英文 caption、中文 caption 翻译、图表内容简要解读、对应正文引用位置。请生成来源锚点，方便后续问答引用，例如：section_id paragraph_id page_number figure_id source_anchor。请输出以下文件：paper.md：包含 Original/中文 对照块的全文精读材料；source_map.json：记录原文段落、页码、章节、图表与 Markdown 锚点的映射关系；translation_notes.md：记录低置信度翻译、无法确认内容、缺失图表或需要人工确认的地方。</li>
+          </ul>
+        </article>
+
+        <article class="panel wide">
+          <h3>输出文件</h3>
+          <ul>
+            <li><code>skills_output/Nature论文精读/paper.md</code>：全文级中英文对照 Markdown，含 Original / 中文 / Note 结构、图表 caption 翻译和来源锚点。</li>
+            <li><code>skills_output/Nature论文精读/source_map.json</code>：记录原文段落、章节、图表与锚点的映射关系。</li>
+            <li><code>skills_output/Nature论文精读/translation_notes.md</code>：记录低置信度翻译、缺失项和需要人工确认的地方。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "title": "Influence of believed AI involvement on the perception of digital medical advice",
+    "doi": "10.1038/s41591-024-03180-7",
+    "journal": "Nature Medicine",
+    "year": 2024,
+    "article_type": "Brief Communication",
+    "pmcid": "PMC11564086",
+    "pmid": "39054373",
+    "authors": [
+      {"name": "Moritz Reis", "corresponding": true, "equal_contrib": true},
+      {"name": "Florian Reis", "corresponding": false, "equal_contrib": true},
+      {"name": "Wilfried Kunde", "corresponding": false, "equal_contrib": false}
+    ],
+    "affiliations": [
+      "Department of Psychology, University of Würzburg, Würzburg, Germany"
+    ],
+    "source_format": "PMC JATS XML",
+    "source_file": "PMC11564086 full-text XML",
+    "version": "published version (open access via PMC)"
+  },
+  "source_map": {
+    "blocks": [
+      {
+        "id": "ABS001",
+        "type": "abstract",
+        "section": "Abstract",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 153,
+        "first_line": "Large language models offer novel opportunities to seek digital medical advice.",
+        "confidence": "high"
+      },
+      {
+        "id": "S001",
+        "type": "body",
+        "section": "Main",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 170,
+        "first_line": "Artificial intelligence (AI) holds enormous potential for the medical domain...",
+        "nearby_figures": [],
+        "confidence": "high"
+      },
+      {
+        "id": "S002",
+        "type": "body",
+        "section": "Main",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 1,
+        "word_count_original": 212,
+        "first_line": "AI-generated medical advice, thus, is perceived as high quality...",
+        "nearby_figures": [],
+        "confidence": "high"
+      },
+      {
+        "id": "S003",
+        "type": "body",
+        "section": "Main",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 2,
+        "word_count_original": 244,
+        "first_line": "Within our work, we thus aim to explore the public's perspective...",
+        "nearby_figures": [],
+        "confidence": "high"
+      },
+      {
+        "id": "S004",
+        "type": "body",
+        "section": "Main",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 3,
+        "word_count_original": 460,
+        "first_line": "Figure 1 shows average ratings for each dimension...",
+        "nearby_figures": ["F001", "F002"],
+        "confidence": "high"
+      },
+      {
+        "id": "S005",
+        "type": "body",
+        "section": "Main",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 4,
+        "word_count_original": 180,
+        "first_line": "Our findings may be based on a stronger association...",
+        "nearby_figures": [],
+        "confidence": "high"
+      },
+      {
+        "id": "S006",
+        "type": "body",
+        "section": "Main",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 5,
+        "word_count_original": 130,
+        "first_line": "Our observation that human-labeled medical advice...",
+        "nearby_figures": [],
+        "confidence": "high"
+      },
+      {
+        "id": "S007",
+        "type": "body",
+        "section": "Main",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 6,
+        "word_count_original": 85,
+        "first_line": "Furthermore, there was no effect of the author label...",
+        "nearby_figures": [],
+        "confidence": "high"
+      },
+      {
+        "id": "S008",
+        "type": "body",
+        "section": "Main",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 7,
+        "word_count_original": 120,
+        "first_line": "Both of our studies have limitations...",
+        "nearby_figures": [],
+        "confidence": "high"
+      },
+      {
+        "id": "S009",
+        "type": "body",
+        "section": "Main",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 8,
+        "word_count_original": 195,
+        "first_line": "Our findings indicate a bias against medical advice...",
+        "nearby_figures": [],
+        "confidence": "high"
+      },
+      {
+        "id": "M001",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Ethics and inclusion",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 75,
+        "first_line": "All participants received detailed instructions...",
+        "confidence": "high"
+      },
+      {
+        "id": "M002",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Study 1 / Participants",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 230,
+        "first_line": "The study was programmed with lab.js...",
+        "confidence": "high"
+      },
+      {
+        "id": "M003",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Study 1 / Materials",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 0,
+        "first_line": "(subsection header only)",
+        "confidence": "high"
+      },
+      {
+        "id": "M004",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Study 1 / Case reports",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 155,
+        "first_line": "The case reports used in this study address four distinct medical topics...",
+        "confidence": "high"
+      },
+      {
+        "id": "M005",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Study 1 / Scales",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 310,
+        "first_line": "Participants evaluated the presented case reports...",
+        "confidence": "high"
+      },
+      {
+        "id": "M006",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Study 1 / Experimental design and procedure",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 140,
+        "first_line": "We used a unifactorial between-subject design...",
+        "confidence": "high"
+      },
+      {
+        "id": "M007",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Study 1 / Data treatment and analyses",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 280,
+        "first_line": "We preregistered our analysis plan...",
+        "confidence": "high"
+      },
+      {
+        "id": "M008",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Study 2 / Participants",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 260,
+        "first_line": "For study 2, we recruited a new sample...",
+        "confidence": "high"
+      },
+      {
+        "id": "M009",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Study 2 / Materials and procedure",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 420,
+        "first_line": "Within our second experiment, we used the same case reports...",
+        "confidence": "high"
+      },
+      {
+        "id": "M010",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Study 2 / Data treatment and analyses",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 310,
+        "first_line": "We preregistered our analysis plan...",
+        "confidence": "high"
+      },
+      {
+        "id": "M011",
+        "type": "methods",
+        "section": "Methods",
+        "subsection": "Reporting summary",
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 20,
+        "first_line": "Further information on research design...",
+        "confidence": "high"
+      },
+      {
+        "id": "M012",
+        "type": "online_content",
+        "section": "Online content",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 60,
+        "first_line": "Any methods, additional references...",
+        "confidence": "high"
+      },
+      {
+        "id": "M013",
+        "type": "supplementary",
+        "section": "Supplementary information",
+        "subsection": null,
+        "page": null,
+        "paragraph_index": 0,
+        "word_count_original": 10,
+        "first_line": "Supplementary Information...",
+        "confidence": "medium",
+        "note": "Supplementary content not fully extractable from PMC XML"
+      }
+    ],
+    "figures": [
+      {
+        "id": "F001",
+        "label": "Fig. 1",
+        "caption_original": "Average ratings for each dimension (empathy, reliability, comprehensibility) and author label (human, AI, human + AI). Samples for each author label condition were independent of each other, but each participant provided ratings for all dimensions. Ratings are aggregated across all four scenarios, and responses are scaled from 1 to 7, with higher values indicating stronger expressions of the respective dimension. Error bars show standard errors of the individual means.",
+        "caption_chinese": "各维度（同理心、可靠性、可理解性）和作者标签（人类、AI、人类 + AI）的平均评分。每个作者标签条件的样本彼此独立，但每位参与者对所有维度进行评分。评分汇总了所有四个场景，回答范围为1至7分，分数越高表示相应维度的表达越强。误差线表示个体均值的标准误。",
+        "asset_path": "assets/41591_2024_3180_Fig1_HTML.jpg",
+        "source_file": "41591_2024_3180_Fig1_HTML.jpg",
+        "first_mention": "S004",
+        "confidence": "high"
+      },
+      {
+        "id": "F002",
+        "label": "Fig. 2",
+        "caption_original": "Average ratings for each dimension (empathy, reliability, comprehensibility, willingness to follow the advice) and author label (human, AI, human + AI). Samples for each author label condition were independent of each other, but each participant provided ratings for all dimensions. Ratings are aggregated across all four scenarios, and responses are scaled from 1 to 5, with higher values indicating stronger expressions of the respective dimension. Error bars show standard errors of the individual means.",
+        "caption_chinese": "各维度（同理心、可靠性、可理解性、遵循建议意愿）和作者标签（人类、AI、人类 + AI）的平均评分。每个作者标签条件的样本彼此独立，但每位参与者对所有维度进行评分。评分汇总了所有四个场景，回答范围为1至5分，分数越高表示相应维度的表达越强。误差线表示个体均值的标准误。",
+        "asset_path": "assets/41591_2024_3180_Fig2_HTML.jpg",
+        "source_file": "41591_2024_3180_Fig2_HTML.jpg",
+        "first_mention": "S004",
+        "confidence": "high"
+      }
+    ],
+    "tables": [],
+    "references": {
+      "total": 25,
+      "format": "numbered",
+      "source": "PMC JATS XML ref-list"
+    }
+  },
+  "glossary": {
+    "LLM": {"canonical": "Large Language Model (LLM)", "chinese": "大型语言模型", "first_use": "S001"},
+    "algorithm_aversion": {"canonical": "algorithm aversion", "chinese": "算法厌恶", "first_use": "S002"},
+    "halo_effect": {"canonical": "halo effect", "chinese": "晕轮效应", "first_use": "S006"},
+    "uniqueness_neglect": {"canonical": "uniqueness neglect", "chinese": "独特性忽视", "first_use": "S005"},
+    "preregistration": {"canonical": "preregistration", "chinese": "预注册", "first_use": "S003"},
+    "cohens_d": {"canonical": "Cohen's d", "chinese": "Cohen's d", "first_use": "S004"},
+    "eta_squared": {"canonical": "partial eta squared (ηp²)", "chinese": "偏η²", "first_use": "S004"},
+    "mixed_effect": {"canonical": "mixed-effect regression", "chinese": "混合效应回归", "first_use": "S004"},
+    "holm_bonferroni": {"canonical": "Holm–Bonferroni method", "chinese": "Holm–Bonferroni校正", "first_use": "M007"}
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>基因快速查询</title>
+  <link rel="stylesheet" href="../assets/skills.css">
+</head>
+<body>
+  <main class="page">
+    <a class="back-link" href="../index.html">← 返回 Skills 总览</a>
+
+    <section class="skill-card">
+      <div class="skill-header">
+        <div class="skill-title">
+          <h2>基因快速查询</h2>
+          <p class="skill-teaching">用户输入基因符号列表，技能会返回基因注释、同源信息或富集结果。</p>
+          <div class="meta">
+            <span>基因注释</span>
+            <span>1 个汇总文件 + 1 个CSV包</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="button primary" href="../downloads/gene-quick-query/gene_analysis_report.md" download>下载汇总报告</a>
+          <a class="button secondary" href="../downloads/gene-quick-query/ALK_csv_bundle.zip" download>下载示例 CSV 文件包</a>
+        </div>
+      </div>
+
+      <div class="skill-body">
+        <article class="panel">
+          <h3>用户故事</h3>
+          <p>作为一名<strong>生物信息分析人员 / 转化研究支持人员</strong>，我希望在<strong>基因列表快速注释与初筛场景</strong>中输入<strong>基因符号列表和物种信息</strong>，让 AI 帮我生成<strong>基因基础注释、疾病与药物关联、共表达线索及可供后续分析的结构化文件</strong>，以便我能<strong>更快整理候选基因清单 / 支持课题讨论 / 做后续富集和机制分析准备</strong>。</p>
+        </article>
+
+        <article class="panel">
+          <h3>测试案例</h3>
+          <ul>
+            <li><strong>基因符号列表：</strong>EGFR ERBB2 BRAF ALK TP53 KRAS PIK3CA MET RET ROS1</li>
+            <li><strong>物种：</strong>Homo sapiens</li>
+          </ul>
+        </article>
+
+        <article class="panel wide">
+          <h3>输出文件</h3>
+          <ul>
+            <li><code>skills_output/基因快速查询/gene_analysis_report.md</code>：10 个癌症相关基因的综合分析汇总报告。</li>
+            <li><code>skills_output/基因快速查询/ALK_info.csv</code>、<code>ALK_correlated_genes.csv</code>、<code>ALK_diseases.csv</code>、<code>ALK_drugs.csv</code>：作为示例展示其中一个基因的结构化明细文件，并打包到单独按钮中下载。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

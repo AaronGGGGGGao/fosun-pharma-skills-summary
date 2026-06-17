@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>单细胞公共图谱</title>
+  <link rel="stylesheet" href="../assets/skills.css">
+</head>
+<body>
+  <main class="page">
+    <a class="back-link" href="../index.html">← 返回 Skills 总览</a>
+
+    <section class="skill-card">
+      <div class="skill-header">
+        <div class="skill-title">
+          <h2>单细胞公共图谱</h2>
+          <p class="skill-teaching">案例：用户需要合并多个 h5ad，技能会检查细胞和基因注释并给出合并策略。</p>
+          <div class="meta">
+            <span>单细胞分析</span>
+            <span>1 个输出文件</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="button primary" href="../downloads/single-cell-atlas/lung_tcell_query_guide.md" download>下载示例查询指南</a>
+        </div>
+      </div>
+
+      <div class="skill-body">
+        <article class="panel">
+          <h3>用户故事</h3>
+          <p>作为一名<strong>生物信息分析人员 / 转化研究支持人员</strong>，我希望在<strong>单细胞数据整理与公共图谱构建场景</strong>中输入<strong>多个 h5ad 文件的物种、组织、疾病状态、细胞类型和数据类型等信息</strong>，让 AI 帮我生成<strong>细胞和基因注释检查结果、样本兼容性判断、合并策略以及后续分析建议</strong>，以便我能<strong>更快整理单细胞队列 / 支持数据整合讨论 / 做图谱构建准备</strong>。</p>
+        </article>
+
+        <article class="panel">
+          <h3>测试案例</h3>
+          <ul>
+            <li><strong>物种：</strong>Homo sapiens</li>
+            <li><strong>组织：</strong>lung / lung tissue</li>
+            <li><strong>疾病状态：</strong>normal 和 COVID-19</li>
+            <li><strong>细胞类型：</strong>T cell，优先包括 CD4-positive T cell、CD8-positive T cell、regulatory T cell、exhausted T cell 等相关亚群</li>
+            <li><strong>数据类型：</strong>single-cell RNA-seq</li>
+          </ul>
+        </article>
+
+        <article class="panel wide">
+          <h3>输出文件</h3>
+          <ul>
+            <li><code>skills_output/单细胞公共图谱/lung_tcell_query_guide.md</code>：肺组织 T 细胞单细胞转录组数据查询指南，包含查询需求概述、推荐数据源、CELLxGENE Census API 查询代码、网站筛选方法和预期结果示例。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

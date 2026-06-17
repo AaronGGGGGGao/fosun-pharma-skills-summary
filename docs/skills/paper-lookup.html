@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>论文检索</title>
+  <link rel="stylesheet" href="../assets/skills.css">
+</head>
+<body>
+  <main class="page">
+    <a class="back-link" href="../index.html">← 返回 Skills 总览</a>
+
+    <section class="skill-card">
+      <div class="skill-header">
+        <div class="skill-title">
+          <h2>论文检索</h2>
+          <p class="skill-teaching">用户输入某个 DOI 或“检索近五年 CAR-T 治疗实体瘤综述”，技能会选择合适数据库并整理候选论文。</p>
+          <div class="meta">
+            <span>文献检索</span>
+            <span>1 个输出文件</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="button primary" href="../downloads/paper-lookup/论文查询报告_AlphaFold.md" download>下载检索结果文件</a>
+        </div>
+      </div>
+
+      <div class="skill-body">
+        <article class="panel">
+          <h3>用户故事</h3>
+          <p>作为一名<strong>科研支持人员 / 医学信息专员</strong>，我希望在<strong>论文检索与文献初筛场景</strong>中输入<strong>DOI、疾病领域、治疗方式、研究主题或时间范围等信息</strong>，让 AI 帮我生成<strong>候选论文列表、数据库来源、筛选依据、主题归类和检索不确定性提示</strong>，以便我能<strong>更快整理文献池 / 支持课题讨论 / 做研究资料汇总</strong>。</p>
+        </article>
+
+        <article class="panel">
+          <h3>测试案例</h3>
+          <ul>
+            <li><strong>DOI：</strong>10.1038/s41586-021-03819-2，请把结果整理在一个文件中。</li>
+          </ul>
+        </article>
+
+        <article class="panel wide">
+          <h3>输出文件</h3>
+          <ul>
+            <li><code>skills_output/论文检索/论文查询报告_AlphaFold.md</code>：围绕 DOI <code>10.1038/s41586-021-03819-2</code> 整理的单文件论文查询报告，包含基本信息、摘要、作者列表、引用指标、开放获取信息、TLDR 和数据库查询状态。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
